@@ -96,3 +96,48 @@ Antes de proceder con la captura del disco, creemos conveniente capturar tambié
 
 ![IEHistory2](img/IEHistory2.png)
 
+Finalmente, debemos dirigir nuestra atención a la obtención de una imagen del disco de la máquina virtual. Cuando tratamos de llevar a cabo este proceso, nos damos cuenta que nuestro dispositivo USB dispone sólo de 28 GB de espacio, mientras que el disco completo pesa unos 34 GB, nos damos cuenta que tenemos un problema que solucionar. Además, la máquina virtual no admite ningún dispositivo USB superior a 2.0, por lo que intentamos cambiamos la compatibilidad del hardware de la máquina, adaptándolo al USB 3.0, pero no funciona.
+
+![USB3.0-1](img/USB3.0-1.png)
+
+![USB3.0-2](img/USB3.0-2.png)
+
+![USB3.0-3](img/USB3.0-3.png)
+
+También intentamos instalar un driver que nos permita detectar dispositivos USB 3.0, pero tampoco funciona. Sumado a esto, ni falta hace mencionar que todos los dispositivos USB de los que disponemos son 3.0, por lo que no teníamos nada que hacer. 
+
+Entonces borramos la máquina y la instalamos otra vez, para comenzar con una máquina limpia y sin alterar, y realizamos los pasos anteriores sin problemas. Finalmente, llegamos a la solución, y es usar la herramienta *AccessData FTK Imager*, dado que ésta permite aplicar un gran nivel de compresión a las imágenes, por lo que podríamos obtener la imagen del disco dentro del dispositivo USB 2.0 original soin ningún problema. 
+
+Dicho esto, comenzamos con la extracción de la susodicha imagen.
+
+![Disco1](img/Disco1.png)
+
+![Disco2](img/Disco2.png)
+
+Elegimos el formato **E01** debido a que éste permite aplicar niveles de compresión a la imagen obtenida.
+
+![Disco3](img/Disco3.png)
+
+Luego rellenamos los datos del caso y elegimos el nivel de compresión 9, que es el máximo, no sin antes darle un nombre a la imagen que obtendremos.
+
+![Disco4](img/Disco4.png)
+
+![Disco5](img/Disco5.png)
+
+También elegiremos como carpeta de destino una que creamos dentro del dispositivo USB, con el objetivo de no alterar el disco de la máquina virtual.
+
+![Disco6](img/Disco6.png)
+
+Terminados estos pasos, comienza la obtención y compresión de la imagen.
+
+![Disco7](img/Disco7.png)
+
+![Disco8](img/Disco8.png)
+
+Finalmente logramos adquirir la tan deseada y necesaria imagen del disco duro, con su consiguiente archivo en formato txt, con información acerca de la extracción, así como los hashes computados.
+
+![Disco9](img/Disco9.png)
+
+![Disco10](img/Disco10.png)
+
+Con este método hemos conseguido una imagen de 4,8 GB de un disco duro de 34 GB, lo que nos ahorra mucho espacio.
