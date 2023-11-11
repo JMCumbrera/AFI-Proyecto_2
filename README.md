@@ -10,6 +10,17 @@
 
 <br/>
 
+## Índice
+
+- [Parte 1: Recolección y almacenamiento de evidencias](#parte-1-recolección-y-almacenamiento-de-evidencias)
+    - [Recolección de evidencias](#recolección-de-evidencias)
+    - [Descripción de las evidencias](#descripción-de-las-evidencias)
+    - [Cadena de Custodia](#cadena-de-custodia)
+    - [Almacenamiento de las Evidencias](#almacenamiento-de-las-evidencias)
+    - [Metodología seguida](#metodología-seguida)
+
+<br/>
+
 ## Parte 1: Recolección y almacenamiento de evidencias
 
 ### Recolección de evidencias
@@ -141,3 +152,49 @@ Finalmente logramos adquirir la tan deseada y necesaria imagen del disco duro, c
 ![Disco10](img/Disco10.png)
 
 Con este método hemos conseguido una imagen de 4,8 GB de un disco duro de 34 GB, lo que nos ahorra mucho espacio.
+
+<br/>
+
+### Descripción de las evidencias
+
+- ***Archivos del Triage:*** Haciendo uso de la aplicación *IRTriage-Master*, logramos extraer una gran cantidad de datos clave del sistema operativo del cual estamos extrayendo las evidencias. Entre estos datos hallamos registros, información del sistema, de la red y del disco.
+
+- ***Imagen de la memoria RAM:*** Se ha adquirido una imagen de la memoria RAM a través de la herramienta *AccessData FTK Imager 3.1.2*. El formato elegido ha sido el .E01, el cual permite una imagen de disco forense que captura una copia bit a bit de todos los datos almacenados en un dispositivo. 
+
+- ***Imagen del archivo de paginación:*** Además de capturar una imagen de la memoria RAM, la herramienta FTK Imager nos permite obtener también una imagen del archivo de paginación, que es usado por los sistemas Windows como un espacio de almacenamiento en el disco utilizado para gestionar la memoria RAM cuando esta se llena.
+
+- ***Cache de Internet Explorer:*** Es un espacio de almacenamiento temporal en la que el navegador guarda copias locales de páginas web imágenes y otros recursos, a fin de poder cargar dichas páginas más rápido.
+
+- ***Cookies de Internet Explorer:*** Son pequeños archivos de texto que una página web envía al navegador de un usuario, con datos sobre su perfil y comportamiento de navegación en las páginas.
+
+- ***Historial de Internet Explorer:*** Registro que almacena las direcciones web visitadas desde un tiempo hasta la actualidad.
+
+- ***Imagen del disco duro:*** Consiste en una copia bit a bit de la totalidad de los datos almacenados en un dispositivo de almacenamiento, en este caso, del disco duro de la máquina virtual.
+
+<br/>
+
+### Cadena de Custodia
+
+- La evidencia es descargada, analizada y recolectada por Juan Manuel Cumbrera López, entre el 7 y el 10 de noviembre de 2023. Este proceso de adquisición de pruebas digitales tiene lugar en el domicilio de la persona nombrada, en la ciudad de San Fernando, en la provincia de Cádiz.
+
+- Una vez finalizado el proceso de recolección de evidencias, la persona con nombre Juan Manuel Cumbrera López, ha procedido a empaquetarlas en un archivo comprimido zip, de 6,17 GB de espacio. Esta acción ha tenido lugar el día 10 de noviembre del año 2023, en el domicilio de Juan Manuel, en San Fernando, provincia de Cádiz.
+
+- La custodia de la evidencia ha sido llevada a cabo por Juan Manuel Cumbrera López, subiendo el archivo zip a su Google Drive personal. También posee una copia de las evvidencias en el ordenador de trabajo. Estas evidencias estarán subidas al Google Drive hasta que sean transferidas al profesor, que las recibirá descargándolas del sitio web.
+
+<br/>
+
+### Almacenamiento de las Evidencias
+
+El almacenamiento de las evidencias se ha llevado a cabo del siguiente modo, procediéndose a comprimir la totalidad de las evidencias en un archivo de formato zip, con un tamaño de 6,17 GB. Este archivo se ha almacenado en el ordenador de trabajo de Juan Manuel Cumbrera López, además de subirse al Google Drive de este.
+
+![Almacenamiento1](img/Almacenamiento1.png)
+
+![Almacenamiento2](img/Almacenamiento2.png)
+
+**Link a las evidencias:** https://drive.google.com/file/d/1a6MRXnL_wXifTik3QzghSvy-6XzAf7J_/view?usp=drive_link
+
+<br/>
+
+### Metodología seguida
+
+Se ha seguido una metodología propia desarrollada para la eficiente labor de identificación, adquisición y preservación de pruebas informáticas en el ámbito de la forensia digital. 
