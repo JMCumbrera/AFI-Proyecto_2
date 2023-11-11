@@ -198,3 +198,12 @@ El almacenamiento de las evidencias se ha llevado a cabo del siguiente modo, pro
 ### Metodología seguida
 
 Se ha seguido una metodología propia desarrollada para la eficiente labor de identificación, adquisición y preservación de pruebas informáticas en el ámbito de la forensia digital. 
+
+Esta metodología consta de una serie de fases bien definidas, con el objetivo de realizar la labor forense de una forma organizada y estructurada. Estas fases consisten en:
+
+1. **Identificación de Evidencia:** PEn esta fase se identifican los elementos que puedan contener evidencia digital, pero puesto que ya se nos suministra una máquina virtual con las pruebas a recabar, no es necesario proseguir con esta fase.
+2. **Adquisición:** Como explicamos con anterioridad, en esta etapa de la metodología tenemos en cuenta tres puntos clave para determinar la importancia de las evidencias a recoger, y el orden en el que llevar esto a cabo. Estos puntos consisten en el valor relativo probable, el esfuerzo requerido y la volatilidad de los datos. En nuestro caso, como sólo tenemos una fuente de evidencia, que es la máquina virtual Windows 7, sólo tenemos que tener en cuenta la volatilidad, y es ese es orden que hemos seguido en la extracción y adquisición de las evidencias.
+3. **Preservación:** En el caso que nos ocupa, hemos tenido que preservar la evidencia en un archivo comprimido en formato zip, en el Google Drive personal. Sabemos que esta no es la forma más adecuada de preservar y transmitir evidencias, pero ha sido necesario en esta ocasión.
+4. **Documentación:** Se ha documentado todo el procedimiento de forma detallada y concisa, a fin de establecer una línea temporal clara de recogida de evidencias. Esto además garantiza que las pruebas no han sido alteradas o modificadas.
+5. **Análisis:** Aún no se ha llevado a cabo el análisis de las evidencias.
+6. **Presentación:** Para poder presentar un informe pericial con la totalidad del proceso de análisis de las pruebas, dichos análisis deben llevarse a cabo.
